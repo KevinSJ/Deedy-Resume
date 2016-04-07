@@ -29,9 +29,9 @@
 \definecolor{subheadings}{HTML}{333333}
 
 % Set main fonts
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Color=primary]{Helvetica Light}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Helvetica Neue UltraLight}
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[Color=primary]{Helvetica Light}
+%\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Helvetica Neue UltraLight}
 
 % Date command
 \setlength{\TPHorizModule}{1mm}

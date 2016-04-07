@@ -39,7 +39,7 @@
 %
 % Known Issues:
 % 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
+% vertical limitx
 % 2. Hacky space on the first bullet point on the second column.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -58,7 +58,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+%\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -81,19 +81,42 @@
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-Github:// \href{https://github.com/kevinsj}{\custombold{KevinSJ}} \\
-LinkedIn://  \href{https://linkedin.com/in/kevin-jiang-173b9525}{\custombold{Kevin Jiang}} \\
+\section{Education} 
+
+\subsection{University of Wisconsin}
+\descript{BS in Computer Science}
+\location{Expected Graduation May 2016 | Madison, WI\\
+Cum. GPA: 3.2}
 \sectionsep
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
+%     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-Github:// \href{https://github.com/kevinsj}{\custombold{KevinSJ}} \\
-LinkedIn://  \href{https://linkedin.com/in/kevin-jiang-173b9525}{\custombold{Kevin Jiang}} \\
+\section{Skills}
+\subsection{Programming Languages}
+\location{Over 1000 lines:}
+Java \textbullet{} Matlab \textbullet{} C \textbullet{} Python \\ 
+\location{Familiar:}
+Scheme \textbullet{} Swift \textbullet{} SQLite 	\\
+Assembly Language(x86)\textbullet{}\LaTeX\ \textbullet{} C++\\ 
+\sectionsep
+
+\subsection{Web Application Tools}
+JavaScript\textbullet{}JSP\textbullet{}HTML\textbullet{}CSS\\
+WebGL
+\sectionsep
+
+\subsection{Database Skills}
+SQLite \textbullet{}PostgreSQL
+\sectionsep
+
+\subsection{Tools}
+Git \textbullet{} Sub Version  \textbullet{} Vim \\
+Eclipse \textbullet{} Xcode 
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,23 +137,12 @@ Unix Tools and Scripting \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
+%     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\subsection{Programming}
-\location{Over 1000 lines:}
-Java \textbullet{} JavaScript \textbullet{} Matlab \\
-C \textbullet{} Python \textbullet{} HTML5\\ 
-\location{Familiar:}
-Scheme \textbullet{} Swift \textbullet{} SQLite 	\\
-CSS \textbullet{} Shell \textbullet{} Assembly \\
-\LaTeX\ \textbullet{} C++\\ 
-\sectionsep
-
-\subsection{Technologies}
-Git \textbullet{} SVN  \textbullet{} Vim \\
-Eclipse \textbullet{} Xcode  \textbullet{} Struts
+\section{Links} 
+Github:// \href{https://github.com/kevinsj}{\bf KevinSJ} \\
+LinkedIn://  \href{https://www.linkedin.com/in/kevsj}{\bf Kevin Jiang} \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -150,14 +162,13 @@ Eclipse \textbullet{} Xcode  \textbullet{} Struts
 \section{Experience}
 
 \runsubsection{\href{http://www.topslab.wisc.edu/}{Traffic Operations And Safety Lab}}
-\descript{| Student Help }
+\descript{| Student Developer }
 \location{Nov 2014 – Current | Madison, WI}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Worked on the software development team in primarilly \textbf{Java} using Struts framework to design and develop new functionality for the Wisconsin Lane Closure System
-\item Integrated Google Map to the system using \textbf{Javascript} API
-\item All code was reviewed,perfected and pushed to production site.
-\item Other duties include resolving software issues with lab computers
+\item Worked in primarilly Java using Struts framework to maintain and develop new functionality for the Wisconsin Lane Closure System
+\item Adding pagination to the search results and integrate Google Map to the system using Javascript API.In production.
+\item Enhanced the validation mechanism on the website and apply various fixes to the system.
 \end{tightemize}
 \sectionsep
 
@@ -175,35 +186,35 @@ Eclipse \textbullet{} Xcode  \textbullet{} Struts
 %     Course Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Course Projects}
+\section{Academic Projects}
 
 \runsubsection{Tutor Finder}
 \descript{}
-\location{Feb 2016 - Current | Madison, WI}
+\location{Feb 2016 - Current }
 Worked in group to design and develop a iOS tutor finding app using Swift. The project is currently under active development.
 \sectionsep
 
 \runsubsection{\href{https://sites.google.com/a/wisc.edu/imagedehazing/}{Image Dehazing using Dark Channel Prior}}
 \descript{}
-\location{Mar 2015  - May 2015 | Madison, WI}
+\location{Mar 2015  - May 2015 }
 Worked with Shiwei Zhou to develop and compare different dark channel prior algorithm that can be used to solve the problem of hazy images. All algorithms were implemented using MATLAB.
 \sectionsep
 
 \runsubsection{Simple Unix Shell}
 \descript{}
-\location{Sep 2015 - Dec 2015 | Madison, WI}
-A simple shell with support for Batch and Interactive modes, command history and redirection
+\location{Sep 2015 - Dec 2015 }
+A simple shell implemented in C with support for Batch and Interactive modes, command history and redirection.
 \sectionsep
 
 \runsubsection{XV6 Kernel Hack}
 \descript{}
-\location{Sep 2015 - Dec 2015 | Madison, WI}
-Implemented MLFQ scheduler, threading support, dynamic stack growth functionality and a reliable filesystem
+\location{Sep 2015 - Dec 2015 }
+Implemented MLFQ scheduler, threading support, dynamic stack growth functionality and a reliable filesystem in C.
 \sectionsep
 
 \runsubsection{Redesign Yahoo Finance}
 \descript{}
-\location{Mar 2014  - May 2014 | Madison, WI}
+\location{Mar 2014  - May 2014 }
 Worked in a group and resigned the Yahoo Finance app to include the function of adding favorite stock.
 \sectionsep
 
