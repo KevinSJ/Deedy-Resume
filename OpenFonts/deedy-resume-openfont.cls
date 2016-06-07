@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
+\usepackage[letterpaper,hmargin=1.25cm, vmargin=0.75cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 
 % Publications
@@ -30,7 +30,7 @@
 
 % Date command
 \usepackage[absolute]{textpos}
-\usepackage[UKenglish]{isodate}
+\usepackage[USenglish]{isodate}
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,5)

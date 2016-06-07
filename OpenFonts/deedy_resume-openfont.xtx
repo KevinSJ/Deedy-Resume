@@ -58,7 +58,7 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\lastupdated
+\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -66,7 +66,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Sicong}{Jiang}{ \urlstyle{same} 
-\href{mailto:sicong@cs.wisc.edu}{sicong@cs.wisc.edu} | (608)609-3496
+\href{mailto:kevin.jiangsc@gmail.com}{kevin.jiangsc@gmail.com} | (608)609-3496
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,7 +75,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.32\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -85,8 +85,8 @@
 
 \subsection{University of Wisconsin}
 \descript{BS in Computer Science}
-\location{Expected Graduation May 2016 | Madison, WI\\
-Cum. GPA: 3.2}
+\location{May 2016 | Madison, WI\\
+Cum. GPA: 3.19}
 \sectionsep
 
 
@@ -99,14 +99,14 @@ Cum. GPA: 3.2}
 \section{Skills}
 \subsection{Programming Languages}
 \location{Over 1000 lines:}
-Java \textbullet{} Matlab \textbullet{} C \textbullet{} Python \\ 
+Java \textbullet{} Matlab \textbullet{} C \textbullet{} Python \textbullet{} JavaScript\\ 
 \location{Familiar:}
 Scheme \textbullet{} Swift \textbullet{} SQLite 	\\
 Assembly Language(x86)\textbullet{}\LaTeX\ \textbullet{} C++\\ 
 \sectionsep
 
 \subsection{Web Application Tools}
-JavaScript\textbullet{}JSP\textbullet{}HTML\textbullet{}CSS\\
+Node.js\textbullet{}Bootstrap\textbullet{}HTML5\textbullet{}CSS\\
 WebGL
 \sectionsep
 
@@ -153,7 +153,7 @@ LinkedIn://  \href{https://www.linkedin.com/in/kevsj}{\bf Kevin Jiang} \\
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.67\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -166,8 +166,8 @@ LinkedIn://  \href{https://www.linkedin.com/in/kevsj}{\bf Kevin Jiang} \\
 \location{Nov 2014 – Current | Madison, WI}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Worked in primarilly Java using Struts framework to maintain and develop new functionality for the Wisconsin Lane Closure System
-\item Adding pagination to the search results and integrate Google Map to the system using Javascript API.In production.
+\item Worked in primarily Java using Struts framework to maintain and develop new functionality for the Wisconsin Lane Closure System
+\item Adding pagination to the search results and integrate Google Map to the system using JavaScript API. In production.
 \item Enhanced the validation mechanism on the website and apply various fixes to the system.
 \end{tightemize}
 \sectionsep
@@ -176,9 +176,9 @@ LinkedIn://  \href{https://www.linkedin.com/in/kevsj}{\bf Kevin Jiang} \\
 \descript{| IT Helpdesk Intern}
 \location{May 2014 – August 2014 | Suzhou, Jiangsu, China}
 \begin{tightemize}
-\item Ensure proper recording, documentation and closure with trouble call related issues
+\item Ensure proper recording, documentation and closure with troubleshotting calls.
 \item Troubleshoot and resolve basic network and server access problems for end-users from the Help Desk. 
-\item Migrate client PC from Windows XP to Windows 7
+\item Migrate client workstations from Windows XP to Windows 7.
 \end{tightemize}
 \sectionsep
 
@@ -190,14 +190,14 @@ LinkedIn://  \href{https://www.linkedin.com/in/kevsj}{\bf Kevin Jiang} \\
 
 \runsubsection{Tutor Finder}
 \descript{}
-\location{Feb 2016 - Current }
-Worked in group to design and develop a iOS tutor finding app using Swift. The project is currently under active development.
+\location{Feb 2016 - May 2016}
+The tutor finder app is intended to use as a tool for college students help each other. Students can decide to be a tutor or tutee and choose to be either a tutor or tutee.The server side of the app is built using Loopback. 
 \sectionsep
 
 \runsubsection{\href{https://sites.google.com/a/wisc.edu/imagedehazing/}{Image Dehazing using Dark Channel Prior}}
 \descript{}
 \location{Mar 2015  - May 2015 }
-Worked with Shiwei Zhou to develop and compare different dark channel prior algorithm that can be used to solve the problem of hazy images. All algorithms were implemented using MATLAB.
+Worked with partner to develop and compare different dark channel prior algorithm that can be used to solve the problem of hazy images. All algorithms were implemented using MATLAB.
 \sectionsep
 
 \runsubsection{Simple Unix Shell}
@@ -212,12 +212,23 @@ A simple shell implemented in C with support for Batch and Interactive modes, co
 Implemented MLFQ scheduler, threading support, dynamic stack growth functionality and a reliable filesystem in C.
 \sectionsep
 
+\iffalse
 \runsubsection{Redesign Yahoo Finance}
 \descript{}
 \location{Mar 2014  - May 2014 }
-Worked in a group and resigned the Yahoo Finance app to include the function of adding favorite stock.
+Worked in a group to resigned the Yahoo Finance app and include the function of adding favorite stock.
 \sectionsep
+\fi
 
+\iftrue
+\section{Side Projects}
+
+\runsubsection{\href{http://www.projectjtw.xyz/}{Project Journey to the West}}
+\descript{}
+\location{Apr 2016 - Current}
+Project Journey to the West is designed to use modern web technologies to introduce the classic Chinese novel \textit{Journey to the West} to readers whose native language is not Chinese. The project is built using Node.js, D3.js and Bootstrap.  
+\sectionsep
+\fi
 
 
 \section{Volunteer}
