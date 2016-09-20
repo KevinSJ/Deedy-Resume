@@ -16,6 +16,9 @@
 \usepackage{cite}
 \renewcommand\refname{\vskip -1.5cm}
 
+\usepackage{hyperref}
+\newcommand\lc[2]{\lowercase{\href{#1}}{#2}}
+
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor} 
 \definecolor{date}{HTML}{666666} 
@@ -30,7 +33,7 @@
 
 % Date command
 \usepackage[absolute]{textpos}
-\usepackage[UKenglish]{isodate}
+\usepackage[USenglish]{isodate}
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
